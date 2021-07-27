@@ -3,12 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MiTercerConsumoWebAPI"
              x:Class="MiTercerConsumoWebAPI.MainPage">
-
+    <ScrollView>
+       
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button x:Name="btnNuevo" Clicked="BtnNuevo_Clicked" Text="Agregar" BackgroundColor="Green" 
+                TextColor="White"/>
+        <ListView x:Name="lsDocotor" ItemSelected="LsDocotor_ItemSelected"/>
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>

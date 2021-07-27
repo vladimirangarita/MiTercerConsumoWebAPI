@@ -13,5 +13,15 @@ namespace MiTercerConsumoWebAPI
         {
             InitializeComponent();
         }
+
+        private void BtnNuevo_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LsDocotor_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
+        }
     }
 }
